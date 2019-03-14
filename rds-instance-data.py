@@ -17,7 +17,7 @@ def list_instances():
                                instances.get('DBInstances')[n].get('DBInstanceIdentifier'),
                                instances.get('DBInstances')[n].get('Endpoint').get('Address'),
                                instances.get('DBInstances')[n].get('DBInstanceClass'),
-							          instances.get('DBInstances')[n].get('BackupRetentionPeriod'),
+			       instances.get('DBInstances')[n].get('BackupRetentionPeriod'),
                                instances.get('DBInstances')[n].get('Engine'),
                                instances.get('DBInstances')[n].get('EngineVersion'),
                                instances.get('DBInstances')[n].get('MultiAZ'),
